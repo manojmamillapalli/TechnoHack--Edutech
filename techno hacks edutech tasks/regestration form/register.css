@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin:auto;
+    box-sizing: border-box;
+}
+/* .registerform{
+  display: flex;
+  margin: top 10%;
+  text-align: center;
+  background-image: url("formback.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+
+} */
+.registerform{
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin-top:50px;
+  background-image: linear-gradient(to right, #FFD194, #D1913C);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:2px solid black;
+  padding-top:50px;
+  border-radius: 7px;
+  box-shadow:5px 5px black;
+
+}
+body{
+  background-image: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+  background-size: cover;
+  
+}
+label{
+  font-size:large;
+}
+label::after{
+  content:"*";
+  color:red;
+}
+input{
+  width:200px;
+}
+.sub{
+  font-weight: bold;
+}
+
+.left{
+ 
+  bottom:50px;
+  left:250px;
+ 
+}
+.right{
+  
+  top:50px;
+  right:250px;
+  
+}
+.up{
+  
+  top:30px;
+  left:30px;
+  
+}
+.down{
+  
+  bottom:50px;
+  right:30px;
+  
+}
+.cir{
+  background-color: white;
+  height:300px;
+  opacity:0.5;
+  width:300px;
+  position:absolute;
+  border-radius: 150px;
+}
